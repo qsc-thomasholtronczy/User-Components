@@ -29,12 +29,12 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
 - **Description**: This script calculates the Peak PoE load of the design file based on all of the PoE enabled Q-SYS devices in the design.
 - **Usage**: Place this block into your design.Emulate or run the design to view the cumulative load.
 
-*(Add additional components from the "Scripting" folder here.)*
+<!-- *(Add additional components from the "Scripting" folder here.)* -->
 ---
 
 ## How to Use
 
-1. **Download the Components**: Clone or download this repository to your local machine.
+1. **Download the Components**: Fork or Clone this repository to your local machine.
 2. **Import into Q-SYS Designer**:
     - Open Q-SYS Designer.
     - Navigate to the "User Components" section.
@@ -43,6 +43,7 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
     - Drag and drop the imported component into your design.
     - Follow the usage instructions provided in the [Components Overview](#components-overview) section.
 4. **Deploy**: Save and deploy your design to the Q-SYS Core processor.
+5. **Contribute!**: Make a pull request and add some of your own components to share.
 
 ---
 
@@ -51,36 +52,11 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
 --[[
 Copyright 2025 QSC, LLC
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this softwareand associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy 
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-of this softwareand associated documentation files (the "Software"), to deal 
-
-in the Software without restriction, including without limitation the rights 
-
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-
-copies of the Software, and to permit persons to whom the Software is furnished
-
-to do so, subject to the following conditions:
-
-
-The above copyright notice and this permission notice shall be included in all 
-
-copies or substantial portions of the Software.
-
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
-
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ]]--
 
 ---
