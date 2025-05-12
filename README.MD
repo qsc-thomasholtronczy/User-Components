@@ -12,6 +12,13 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
 
 ## Components Overview
 
+### APIs
+
+#### 1. **Divoom Pixoo64 Cloud API Control V1.1.quc**
+
+- **Description**: This script gives the user the ability to control a Pixoo64 Pixel wall from a Q-SYS core. Includes automatic device discovery for all devices on the same subnet.
+- **Usage**: Place this block into your design.
+
 <!-- ### Audio Components
 
 #### 1. **ComponentName1.quc**
@@ -30,6 +37,10 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
 - **Usage**: Place this block into your design.Emulate or run the design to view the cumulative load.
 
 <!-- *(Add additional components from the "Scripting" folder here.)* -->
+### Logic Gates
+
+- **Description**: THese are prebuilt logic functions that can be added to the design to quickly create basic logic components. 
+
 ---
 
 ## How to Use
