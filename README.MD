@@ -56,15 +56,15 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
 ### Logic Gates
 
 - **Description**: These are prebuilt logic functions that can be added to the design to quickly create basic logic components.
-      - **[1-Of-N].quc**
-      - **[AND].quc**
-      - **[NAND].quc**
-      - **[NOR].quc**
-      - **[NOT XOR].quc**
-      - **[NOT].quc**
-      - **[OR].quc**
-      - **[Trigger Combiner].quc**
-      - **[XOR].quc**
+    - **[1-Of-N].quc**
+    - **[AND].quc**
+    - **[NAND].quc**
+    - **[NOR].quc**
+    - **[NOT XOR].quc**
+    - **[NOT].quc**
+    - **[OR].quc**
+    - **[Trigger Combiner].quc**
+    - **[XOR].quc**
 
 ---
 
