@@ -1,0 +1,18 @@
+# Treat .quc files as binary to avoid merge conflicts
+*.quc binary
+
+# Set default text handling for common files
+*.md text
+*.txt text
+*.json text
+*.xml text
+
+# Normalize line endings for scripts and source files
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# Exclude OneDrive temp files from diff
+~$* -diff
+
+# End of .gitattributes
