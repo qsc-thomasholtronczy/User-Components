@@ -1,6 +1,3 @@
-# Treat .quc files as binary to avoid merge conflicts
-*.quc binary
-
 #Treat .quc files as XML to allow Github to handle these natively
 *.quc linguist-language=XML
 
