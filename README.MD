@@ -66,6 +66,14 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
     - **[Trigger Combiner].quc**
     - **[XOR].quc**
 
+### Miscellaneous or Fun Stuff
+
+#### 1. **Network Subnet Calculator.quc**
+
+- **Description**: Calculates Subnet map and network information based on a given ip address and CIDR suffix. 
+
+- **Usage**: Input IP Address and Select a suffix. Press the calculate button.
+
 ---
 
 ## How to Use
