@@ -31,22 +31,17 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
 
 ### Scripting Components
 
-#### 1. **POE Load Calculator v1.1.quc**
-
-- **Description**: This script calculates the Peak PoE load of the design file based on all of the PoE enabled Q-SYS devices in the design.
-- **Usage**: Place this block into your design.Emulate or run the design to view the cumulative load.
-
-#### 2. **World Clock Display.quc**
+#### 1. **World Clock Display.quc**
 
 - **Description**: Automatic Scrolling text box to display multiple times in a single UCI element. Allows for selecting specific cities around the world. Automatically tracks DST and time offsets based on on-board Core real-time clock. 
 - **Usage**: In Emulate, configure "number of clocks", "clock choices", and "rotation speed". Add "Marquee" element to UCI, and size to taste.
 
-#### 3. **UCI Discovery Tool.quc**
+#### 2. **UCI Discovery Tool.quc**
 
 - **Description**: Discover all UCIs attached to the design. This data shows up in a Combo Box on the Text Controller, but the code can be repurposed as a code snippet inside larger code that requires access to the UCI list. **This component requires at least one UCI capable device to be set to Dynamic UCI in the properties tab**
 - **Usage**: Set one Touch Panel, UCI Viewer, or MTR component to "Dynamic UCI" in the properties in Design Time. Then, in Emulate, view the UCIs in the Text Controller panel.
 
-#### 4. **Control Script Manager.quc**
+#### 3. **Control Script Manager.quc**
 
 - **Description**: Real-Time monitoring and control of any and all Code Access enabled scripts inside of a design. This block gives you access to the current status and memory usage of a script, and gives you the ability to start and stop those scripts remotely. Pair with a status combiner and reflect monitoring proxy to supercharge this block.
 - **Usage**: In Design time, set number of controls for each control to how many scripts you would like to monitor. In Emulate, select which scripts you would like to monitor from the drop down list. Selecting "-- DO NOT USE --" disables a row of controls, allowing you to separate out scripts for organizational purposes. 
@@ -66,13 +61,18 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
     - **[Trigger Combiner].quc**
     - **[XOR].quc**
 
-### Miscellaneous or Fun Stuff
+### Design Tools
 
 #### 1. **Network Subnet Calculator.quc**
 
 - **Description**: Calculates Subnet map and network information based on a given ip address and CIDR suffix. 
 
 - **Usage**: Input IP Address and Select a suffix. Press the calculate button.
+
+#### 2. **POE Load Calculator v1.1.quc**
+
+- **Description**: This script calculates the Peak PoE load of the design file based on all of the PoE enabled Q-SYS devices in the design.
+- **Usage**: Place this block into your design.Emulate or run the design to view the cumulative load.
 
 ---
 
