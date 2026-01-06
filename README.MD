@@ -12,12 +12,20 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
 
 ## Components Overview
 
+### ACPR Utilities
+
+#### 1. **ACPR Settings Backup.quc**
+
+- **Description**: This script gives the user settings backup capability for any ACPR plugin installed on the system. It delivers JSON to the runtime Text Controller block, and serves formatted csv data for the Microphone Zone data when saved to the core. 
+- **Usage**: Place this block into your design. Select ACPR Plugin with Code Access enabled. Emulate or save to design. Refresh Settings or Save to Core. 
+
+
 ### APIs
 
 #### 1. **Divoom Pixoo64 Cloud API Control V1.1.quc**
 
 - **Description**: This script gives the user the ability to control a Pixoo64 Pixel wall from a Q-SYS core. Includes automatic device discovery for all devices on the same subnet.
-- **Usage**: Place this block into your design.
+- **Usage**: Place this block into your design. Configure to control Pixoo64 LED panel.
 
 <!-- ### Audio Components
 
@@ -93,7 +101,7 @@ This repository contains custom Q-SYS User Components (`.quc` files) designed to
 
 ## License
 
-Copyright 2025 QSC, LLC
+Copyright 2026 QSC, LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
